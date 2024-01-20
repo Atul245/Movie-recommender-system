@@ -25,19 +25,31 @@ This repository contains the source code for a movie recommendation system built
     cd movie-recommendation-system
     ```
 
-2. **Install dependencies:**
+2. **Create virtual environment:**
+
+    ```bash
+    python -m venv env
+    ```
+
+3. **Activate virtual environment:**
+
+    ```bash
+    env\Scripts\activate
+    ```
+
+4. **Install dependencies:**
 
     ```bash
     pip install -r requirements.txt
     ```
 
-3. **Run the Streamlit app:**
+5. **Run the Streamlit app:**
 
     ```bash
     streamlit run app.py
     ```
 
-4. **Open your browser and navigate to `http://localhost:8501` to interact with the Movie Recommendation System.**
+6. **Open your browser and navigate to `http://localhost:8501` to interact with the Movie Recommendation System.**
 
 ## Dataset
 
@@ -45,7 +57,7 @@ The dataset used for this project can be found [here](https://www.kaggle.com/dat
 
 ## Running App Screenshot
 
-![Running App Screenshot](screenshots/app_screenshot.png)
+![Running App Screenshot](snnipt.png)
 
 ## Dependencies
 
